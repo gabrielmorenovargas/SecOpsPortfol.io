@@ -22,6 +22,7 @@ img {
   width: 50%;        /* usa 50% del contenedor */
   max-width: 300px;  /* pero nunca más grande que 300px */
   height: auto;
+  max-height: 300px
 }
 
 header h1 {
