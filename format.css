@@ -19,9 +19,9 @@ header {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;  /* 🔹 Ajusta el tamaño máximo */
-  height: auto;      /* Mantiene proporción */
-  border-radius: 10px; /* opcional: bordes redondeados */
+  width: 50%;        /* usa 50% del contenedor */
+  max-width: 300px;  /* pero nunca más grande que 300px */
+  height: auto;
 }
 
 header h1 {
